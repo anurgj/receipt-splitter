@@ -13,5 +13,19 @@ A simple Streamlit app that parses **Walmart** PDF receipts and helps split item
 ## Demo (TL;DR)
 
 ```bash
+# 1. Create and activate a virtual environment (recommended)
+
+# Linux / macOS
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Windows (PowerShell)
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+# 2. Install dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
+
+# 3. Run the app
 streamlit run app.py
